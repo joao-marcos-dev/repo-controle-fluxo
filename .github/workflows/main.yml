@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Action de teste 
-        run: echo "Disparou o evento com imput ${{inputs.exemplo-inputs}}"
+        run: echo "${{ inputs.exemplo-inputs }}"
       
