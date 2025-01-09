@@ -1,11 +1,11 @@
 name: workflow Evento
 on: 
   workflow_dispatch: 
-  inputs:
-    exemplo-inputs:
-      type: string
-      description: "Teste de input"
-      requered: true
+    inputs:
+      exemplo-inputs:
+        type: string
+        description: "Teste de input"
+        requered: true
 jobs:
   teste:
     runs-on: ubuntu-latest
